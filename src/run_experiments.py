@@ -389,7 +389,7 @@ def generate_ir_alem1_figures(
 def run_all_experiments():
     print("🚀 [1/5] Inicializando curadoria do dataset NIH Chest X-ray (Cardiomegalia vs Normal)...")
     data_dir = os.path.join(ROOT_DIR, "data")
-    df, img_dir = ensure_cardio_dataset(data_dir=data_dir, num_patients=240, seed=42, force_regenerate=True)
+    df, img_dir = ensure_cardio_dataset(data_dir=data_dir, num_patients=240, seed=42, force_regenerate=False)
     splits = split_dataset_no_leakage(
         df,
         train_ratio=0.70,

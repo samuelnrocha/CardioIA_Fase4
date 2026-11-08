@@ -163,6 +163,11 @@ def ensure_cardio_dataset(
         if len(df) >= num_patients and os.path.exists(os.path.join(raw_img_dir, df.iloc[0]["filename"])):
             return df, raw_img_dir
 
+    if force_regenerate and os.path.exists(raw_img_dir):
+        for old_f in os.listdir(raw_img_dir):
+            if old_f.endswith(".png"):
+                os.remove(os.path.join(raw_img_dir, old_f))
+
     rng = np.random.default_rng(seed)
     records = []
     img_counter = 1

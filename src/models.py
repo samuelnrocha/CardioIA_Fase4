@@ -12,6 +12,7 @@ Implementa:
 """
 
 import os
+import warnings
 from typing import Dict
 import torch
 import torch.nn as nn
@@ -116,7 +117,8 @@ def export_model_onnx(
     model_eval = model.to(device).eval()
     dummy_input = torch.randn(1, 3, img_size, img_size, device=device)
 
-    with torch.no_grad():
+    with warnings.catch_warnings(), torch.no_grad():
+        warnings.simplefilter("ignore", category=DeprecationWarning)
         torch.onnx.export(
             model_eval,
             dummy_input,

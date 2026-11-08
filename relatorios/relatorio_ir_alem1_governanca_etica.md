@@ -53,3 +53,12 @@ Para erradicar a disparidade de sensibilidade sem comprometer a precisão global
 ### Alinhamento Normativo e Legal
 - **LGPD (Lei Geral de Proteção de Dados — Lei nº 13.709/2018):** Dados de imagem médica e telemetria são tratados como **dados pessoais sensíveis de saúde (Art. 11)** com pseudonimização na origem (`NIH_PAT_XXXX`). Em estrito cumprimento ao **Art. 20 da LGPD** (direito à explicação e revisão de decisões automatizadas), toda inferência expõe o grau de confiança, o ICT estimado e o modelo utilizado.
 - **Resolução CFM nº 2.314/2022 e Diretrizes da OMS / FDA (SaMD):** O CardioIA opera sob o paradigma **Human-in-the-Loop (Médico no Comando)** — o algoritmo prioriza a fila de triagem e emite alertas críticos, mas o ato diagnóstico definitivo permanece prerrogativa inalienável do profissional médico.
+
+---
+
+## 4. Referências Bibliográficas e Normativas
+1. **SEYYED-KALANTARI, L. et al.** *Underdiagnosis bias of artificial intelligence algorithms applied to chest radiographs in under-served patient populations.* **Nature Medicine**, v. 27, p. 2176–2182, 2021.
+2. **WANG, X. et al.** *ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases.* **IEEE CVPR**, p. 2097–2106, 2017.
+3. **WORLD HEALTH ORGANIZATION (OMS).** *Ethics and governance of artificial intelligence for health: WHO guidance.* Geneva: WHO, 2021.
+4. **BRASIL.** *Lei nº 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados Pessoais — LGPD)*, Art. 11 e Art. 20.
+5. **CONSELHO FEDERAL DE MEDICINA (CFM).** *Resolução CFM nº 2.314/2022* (Regulamentação da Telemedicina e Sistemas de Apoio à Decisão Clínica).
