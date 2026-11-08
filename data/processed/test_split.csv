@@ -1,0 +1,54 @@
+filename,patient_id,follow_up_number,label,finding_label,patient_gender,patient_age,age_group,view_position,ctr_estimated
+nih_cxr_00018_NIH_PAT_0016_f0.png,NIH_PAT_0016,0,0,No Finding,M,74,Idoso (>65),PA,0.437
+nih_cxr_00019_NIH_PAT_0016_f1.png,NIH_PAT_0016,1,0,No Finding,M,74,Idoso (>65),AP,0.411
+nih_cxr_00023_NIH_PAT_0019_f0.png,NIH_PAT_0019,0,0,No Finding,M,65,Adulto (45-65),PA,0.447
+nih_cxr_00024_NIH_PAT_0020_f0.png,NIH_PAT_0020,0,0,No Finding,F,38,Jovem (<45),PA,0.424
+nih_cxr_00025_NIH_PAT_0020_f1.png,NIH_PAT_0020,1,0,No Finding,F,38,Jovem (<45),PA,0.468
+nih_cxr_00032_NIH_PAT_0025_f0.png,NIH_PAT_0025,0,0,No Finding,F,54,Adulto (45-65),PA,0.416
+nih_cxr_00033_NIH_PAT_0025_f1.png,NIH_PAT_0025,1,0,No Finding,F,54,Adulto (45-65),PA,0.443
+nih_cxr_00034_NIH_PAT_0026_f0.png,NIH_PAT_0026,0,0,No Finding,M,45,Adulto (45-65),PA,0.398
+nih_cxr_00035_NIH_PAT_0026_f1.png,NIH_PAT_0026,1,0,No Finding,M,45,Adulto (45-65),PA,0.424
+nih_cxr_00081_NIH_PAT_0061_f0.png,NIH_PAT_0061,0,1,Cardiomegaly,F,41,Jovem (<45),AP,0.529
+nih_cxr_00088_NIH_PAT_0067_f0.png,NIH_PAT_0067,0,1,Cardiomegaly,F,63,Adulto (45-65),AP,0.602
+nih_cxr_00089_NIH_PAT_0068_f0.png,NIH_PAT_0068,0,0,No Finding,M,72,Idoso (>65),PA,0.401
+nih_cxr_00097_NIH_PAT_0074_f0.png,NIH_PAT_0074,0,1,Cardiomegaly,M,56,Adulto (45-65),PA,0.636
+nih_cxr_00098_NIH_PAT_0074_f1.png,NIH_PAT_0074,1,1,Cardiomegaly,M,56,Adulto (45-65),PA,0.576
+nih_cxr_00105_NIH_PAT_0080_f0.png,NIH_PAT_0080,0,0,No Finding,M,74,Idoso (>65),PA,0.403
+nih_cxr_00106_NIH_PAT_0080_f1.png,NIH_PAT_0080,1,0,No Finding,M,74,Idoso (>65),PA,0.464
+nih_cxr_00112_NIH_PAT_0085_f0.png,NIH_PAT_0085,0,1,Cardiomegaly,M,84,Idoso (>65),PA,0.499
+nih_cxr_00113_NIH_PAT_0085_f1.png,NIH_PAT_0085,1,1,Cardiomegaly,M,84,Idoso (>65),AP,0.606
+nih_cxr_00124_NIH_PAT_0094_f0.png,NIH_PAT_0094,0,0,No Finding,F,58,Adulto (45-65),PA,0.428
+nih_cxr_00138_NIH_PAT_0105_f0.png,NIH_PAT_0105,0,0,No Finding,F,62,Adulto (45-65),PA,0.401
+nih_cxr_00139_NIH_PAT_0105_f1.png,NIH_PAT_0105,1,0,No Finding,F,62,Adulto (45-65),PA,0.429
+nih_cxr_00147_NIH_PAT_0112_f0.png,NIH_PAT_0112,0,0,No Finding,M,68,Idoso (>65),PA,0.42
+nih_cxr_00149_NIH_PAT_0114_f0.png,NIH_PAT_0114,0,1,Cardiomegaly,F,54,Adulto (45-65),AP,0.564
+nih_cxr_00151_NIH_PAT_0116_f0.png,NIH_PAT_0116,0,1,Cardiomegaly,F,80,Idoso (>65),AP,0.635
+nih_cxr_00152_NIH_PAT_0116_f1.png,NIH_PAT_0116,1,1,Cardiomegaly,F,80,Idoso (>65),PA,0.641
+nih_cxr_00164_NIH_PAT_0127_f0.png,NIH_PAT_0127,0,0,No Finding,F,72,Idoso (>65),PA,0.484
+nih_cxr_00165_NIH_PAT_0128_f0.png,NIH_PAT_0128,0,1,Cardiomegaly,F,77,Idoso (>65),PA,0.502
+nih_cxr_00177_NIH_PAT_0137_f0.png,NIH_PAT_0137,0,0,No Finding,M,86,Idoso (>65),PA,0.431
+nih_cxr_00178_NIH_PAT_0137_f1.png,NIH_PAT_0137,1,0,No Finding,M,86,Idoso (>65),PA,0.394
+nih_cxr_00186_NIH_PAT_0144_f0.png,NIH_PAT_0144,0,1,Cardiomegaly,M,39,Jovem (<45),AP,0.562
+nih_cxr_00196_NIH_PAT_0151_f0.png,NIH_PAT_0151,0,0,No Finding,M,50,Adulto (45-65),PA,0.395
+nih_cxr_00197_NIH_PAT_0151_f1.png,NIH_PAT_0151,1,0,No Finding,M,50,Adulto (45-65),PA,0.423
+nih_cxr_00199_NIH_PAT_0153_f0.png,NIH_PAT_0153,0,1,Cardiomegaly,M,30,Jovem (<45),AP,0.57
+nih_cxr_00200_NIH_PAT_0153_f1.png,NIH_PAT_0153,1,1,Cardiomegaly,M,30,Jovem (<45),PA,0.55
+nih_cxr_00201_NIH_PAT_0154_f0.png,NIH_PAT_0154,0,1,Cardiomegaly,F,42,Jovem (<45),AP,0.653
+nih_cxr_00202_NIH_PAT_0154_f1.png,NIH_PAT_0154,1,1,Cardiomegaly,F,42,Jovem (<45),AP,0.63
+nih_cxr_00205_NIH_PAT_0157_f0.png,NIH_PAT_0157,0,1,Cardiomegaly,F,53,Adulto (45-65),AP,0.573
+nih_cxr_00206_NIH_PAT_0157_f1.png,NIH_PAT_0157,1,1,Cardiomegaly,F,53,Adulto (45-65),AP,0.63
+nih_cxr_00224_NIH_PAT_0173_f0.png,NIH_PAT_0173,0,0,No Finding,M,27,Jovem (<45),PA,0.465
+nih_cxr_00225_NIH_PAT_0173_f1.png,NIH_PAT_0173,1,0,No Finding,M,27,Jovem (<45),PA,0.458
+nih_cxr_00237_NIH_PAT_0183_f0.png,NIH_PAT_0183,0,1,Cardiomegaly,M,40,Jovem (<45),AP,0.588
+nih_cxr_00240_NIH_PAT_0186_f0.png,NIH_PAT_0186,0,1,Cardiomegaly,M,52,Adulto (45-65),PA,0.66
+nih_cxr_00252_NIH_PAT_0195_f0.png,NIH_PAT_0195,0,0,No Finding,F,57,Adulto (45-65),PA,0.425
+nih_cxr_00270_NIH_PAT_0210_f0.png,NIH_PAT_0210,0,0,No Finding,M,48,Adulto (45-65),PA,0.44
+nih_cxr_00283_NIH_PAT_0220_f0.png,NIH_PAT_0220,0,0,No Finding,M,85,Idoso (>65),PA,0.399
+nih_cxr_00289_NIH_PAT_0225_f0.png,NIH_PAT_0225,0,1,Cardiomegaly,F,45,Adulto (45-65),PA,0.613
+nih_cxr_00290_NIH_PAT_0225_f1.png,NIH_PAT_0225,1,1,Cardiomegaly,F,45,Adulto (45-65),PA,0.652
+nih_cxr_00293_NIH_PAT_0228_f0.png,NIH_PAT_0228,0,1,Cardiomegaly,M,72,Idoso (>65),PA,0.637
+nih_cxr_00294_NIH_PAT_0229_f0.png,NIH_PAT_0229,0,0,No Finding,F,29,Jovem (<45),AP,0.435
+nih_cxr_00295_NIH_PAT_0229_f1.png,NIH_PAT_0229,1,0,No Finding,F,29,Jovem (<45),PA,0.435
+nih_cxr_00300_NIH_PAT_0234_f0.png,NIH_PAT_0234,0,0,No Finding,F,41,Jovem (<45),AP,0.433
+nih_cxr_00302_NIH_PAT_0236_f0.png,NIH_PAT_0236,0,1,Cardiomegaly,F,61,Adulto (45-65),PA,0.58
+nih_cxr_00304_NIH_PAT_0238_f0.png,NIH_PAT_0238,0,0,No Finding,F,56,Adulto (45-65),PA,0.45

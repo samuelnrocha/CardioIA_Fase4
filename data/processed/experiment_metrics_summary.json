@@ -1,0 +1,233 @@
+{
+  "dataset": {
+    "total_exams": 306,
+    "unique_patients": 240,
+    "cardiomegaly_exams": 139,
+    "normal_exams": 167,
+    "splits": {
+      "train": {
+        "exams": 208,
+        "patients": 168,
+        "cardiomegaly": 88,
+        "normal": 120
+      },
+      "val": {
+        "exams": 45,
+        "patients": 36,
+        "cardiomegaly": 28,
+        "normal": 17
+      },
+      "test": {
+        "exams": 53,
+        "patients": 36,
+        "cardiomegaly": 23,
+        "normal": 30
+      }
+    }
+  },
+  "models": {
+    "cnn_scratch": {
+      "params": {
+        "total": 914050,
+        "trainable": 914050,
+        "frozen": 0
+      },
+      "acuracia": 98.11,
+      "precisao": 95.83,
+      "recall": 100.0,
+      "especificidade": 96.67,
+      "f1_score": 97.87,
+      "roc_auc": 100.0,
+      "confusion_matrix": [
+        [
+          29,
+          1
+        ],
+        [
+          0,
+          23
+        ]
+      ],
+      "checkpoint_size_mb": 3.5
+    },
+    "resnet18_transfer": {
+      "params": {
+        "total": 11308866,
+        "trainable": 8526082,
+        "frozen": 2782784
+      },
+      "acuracia": 98.11,
+      "precisao": 100.0,
+      "recall": 95.65,
+      "especificidade": 100.0,
+      "f1_score": 97.78,
+      "roc_auc": 100.0,
+      "confusion_matrix": [
+        [
+          30,
+          0
+        ],
+        [
+          1,
+          22
+        ]
+      ],
+      "checkpoint_size_mb": 43.22,
+      "onnx_size_mb": 43.13
+    }
+  },
+  "fairness": {
+    "group_thresholds": {
+      "F": 0.4299,
+      "M": 0.3529
+    },
+    "gender_before": {
+      "subgrupos": {
+        "F": {
+          "total_amostras": 47,
+          "prevalencia_real": 0.5957446808510638,
+          "taxa_predicao_positiva": 0.48936170212765956,
+          "acuracia": 0.8936170212765957,
+          "precisao": 1.0,
+          "recall": 0.8214285714285714,
+          "fnr_subdiagnostico": 0.1785714285714286,
+          "fpr_falso_alarme": 0.0,
+          "f1_score": 0.9019607843137255,
+          "roc_auc": 0.9981203007518797
+        },
+        "M": {
+          "total_amostras": 51,
+          "prevalencia_real": 0.45098039215686275,
+          "taxa_predicao_positiva": 0.43137254901960786,
+          "acuracia": 0.9803921568627451,
+          "precisao": 1.0,
+          "recall": 0.9565217391304348,
+          "fnr_subdiagnostico": 0.04347826086956519,
+          "fpr_falso_alarme": 0.0,
+          "f1_score": 0.9777777777777777,
+          "roc_auc": 1.0
+        }
+      },
+      "disparate_impact_ratio": 0.8815004262574596,
+      "demographic_parity_difference": 0.057989153108051694,
+      "equal_opportunity_difference": 0.13509316770186341,
+      "predictive_parity_difference": 0.0,
+      "eeoc_80pct_compliant": true,
+      "equal_opportunity_compliant": false
+    },
+    "gender_after": {
+      "subgrupos": {
+        "F": {
+          "total_amostras": 47,
+          "prevalencia_real": 0.5957446808510638,
+          "taxa_predicao_positiva": 0.574468085106383,
+          "acuracia": 0.9787234042553191,
+          "precisao": 1.0,
+          "recall": 0.9642857142857143,
+          "fnr_subdiagnostico": 0.0357142857142857,
+          "fpr_falso_alarme": 0.0,
+          "f1_score": 0.9818181818181818,
+          "roc_auc": 0.9981203007518797
+        },
+        "M": {
+          "total_amostras": 51,
+          "prevalencia_real": 0.45098039215686275,
+          "taxa_predicao_positiva": 0.45098039215686275,
+          "acuracia": 1.0,
+          "precisao": 1.0,
+          "recall": 1.0,
+          "fnr_subdiagnostico": 0.0,
+          "fpr_falso_alarme": 0.0,
+          "f1_score": 1.0,
+          "roc_auc": 1.0
+        }
+      },
+      "disparate_impact_ratio": 0.7850399419026869,
+      "demographic_parity_difference": 0.12348769294952028,
+      "equal_opportunity_difference": 0.0357142857142857,
+      "predictive_parity_difference": 0.0,
+      "eeoc_80pct_compliant": false,
+      "equal_opportunity_compliant": true
+    },
+    "age_groups": {
+      "subgrupos": {
+        "Adulto (45-65)": {
+          "total_amostras": 46,
+          "prevalencia_real": 0.5434782608695652,
+          "taxa_predicao_positiva": 0.5434782608695652,
+          "acuracia": 1.0,
+          "precisao": 1.0,
+          "recall": 1.0,
+          "fnr_subdiagnostico": 0.0,
+          "fpr_falso_alarme": 0.0,
+          "f1_score": 1.0,
+          "roc_auc": 0.998095238095238
+        },
+        "Idoso (>65)": {
+          "total_amostras": 30,
+          "prevalencia_real": 0.5,
+          "taxa_predicao_positiva": 0.4666666666666667,
+          "acuracia": 0.9666666666666667,
+          "precisao": 1.0,
+          "recall": 0.9333333333333333,
+          "fnr_subdiagnostico": 0.06666666666666665,
+          "fpr_falso_alarme": 0.0,
+          "f1_score": 0.9655172413793104,
+          "roc_auc": 0.9955555555555555
+        },
+        "Jovem (<45)": {
+          "total_amostras": 22,
+          "prevalencia_real": 0.5,
+          "taxa_predicao_positiva": 0.5,
+          "acuracia": 1.0,
+          "precisao": 1.0,
+          "recall": 1.0,
+          "fnr_subdiagnostico": 0.0,
+          "fpr_falso_alarme": 0.0,
+          "f1_score": 1.0,
+          "roc_auc": 1.0
+        }
+      },
+      "disparate_impact_ratio": 0.8586666666666667,
+      "demographic_parity_difference": 0.07681159420289851,
+      "equal_opportunity_difference": 0.06666666666666665,
+      "predictive_parity_difference": 0.0,
+      "eeoc_80pct_compliant": true,
+      "equal_opportunity_compliant": false
+    },
+    "view_position": {
+      "subgrupos": {
+        "AP": {
+          "total_amostras": 32,
+          "prevalencia_real": 0.75,
+          "taxa_predicao_positiva": 0.75,
+          "acuracia": 1.0,
+          "precisao": 1.0,
+          "recall": 1.0,
+          "fnr_subdiagnostico": 0.0,
+          "fpr_falso_alarme": 0.0,
+          "f1_score": 1.0,
+          "roc_auc": 1.0
+        },
+        "PA": {
+          "total_amostras": 66,
+          "prevalencia_real": 0.4090909090909091,
+          "taxa_predicao_positiva": 0.3939393939393939,
+          "acuracia": 0.9848484848484849,
+          "precisao": 1.0,
+          "recall": 0.9629629629629629,
+          "fnr_subdiagnostico": 0.03703703703703709,
+          "fpr_falso_alarme": 0.0,
+          "f1_score": 0.9811320754716981,
+          "roc_auc": 0.9981006647673314
+        }
+      },
+      "disparate_impact_ratio": 0.5252525252525252,
+      "demographic_parity_difference": 0.3560606060606061,
+      "equal_opportunity_difference": 0.03703703703703709,
+      "predictive_parity_difference": 0.0,
+      "eeoc_80pct_compliant": false,
+      "equal_opportunity_compliant": true
+    }
+  }
+}

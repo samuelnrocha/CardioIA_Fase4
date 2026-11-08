@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "CardioIA Fase 4",
+    "slug": "cardioia-fase4",
+    "version": "4.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#030305"
+    },
+    "icon": "./assets/icon.png",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "br.com.fiap.datahealth.cardioia4"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#030305"
+      },
+      "package": "br.com.fiap.datahealth.cardioia4"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    }
+  }
+}

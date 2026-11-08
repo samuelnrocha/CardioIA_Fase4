@@ -27,6 +27,8 @@ share/python-wheels/
 MANIFEST
 
 # Virtual environments
+.venv/
+.pytest_cache/
 venv/
 env/
 ENV/
